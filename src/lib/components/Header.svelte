@@ -19,7 +19,13 @@
 		<a href="/" sveltekit:prefetch on:click={closeNavMenu}>Services</a>
 		<a href="/" sveltekit:prefetch on:click={closeNavMenu}>About</a>
 		<a href="/" sveltekit:prefetch on:click={closeNavMenu}>Contact</a>
-		<a href="/" sveltekit:prefetch on:click={closeNavMenu}>Book Appointment</a>
+		<a
+			href="https://browandwaxhouse.salonware.nl/"
+			rel="noreferrer"
+			target="_blank"
+			sveltekit:prefetch
+			on:click={closeNavMenu}>Book Appointment</a
+		>
 	</nav>
 	<button on:click={toggleNavMenu} class:active={isActive}>
 		<span />
