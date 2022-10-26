@@ -147,7 +147,7 @@
 		}
 
 		nav a:last-child {
-			background-color: var(--color-purple);
+			background-color: var(--color-black);
 			color: var(--color-white);
 			font-weight: bold;
 			padding: 0.5rem 1rem;
