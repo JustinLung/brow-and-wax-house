@@ -19,8 +19,7 @@
 
 <style>
 	section {
-		background-image: url('/assets/images/model.png'),
-			linear-gradient(42deg, var(--color-cream) 34%, var(--color-light-grey) 74%);
+		background-image: url('/assets/images/group-photo.jpg');
 		background-size: cover;
 		background-position: center;
 		height: 80vh;
@@ -39,7 +38,7 @@
 		max-width: 30rem;
 	}
 
-	div {
+	div:last-child {
 		margin-top: 1rem;
 	}
 
