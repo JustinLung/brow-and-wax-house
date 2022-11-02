@@ -12,14 +12,14 @@
 	<div>
 		<h3>{serviceTitle}</h3>
 		<p>{serviceSubtitle}</p>
-		<a href="/{serviceLink}">Prices</a>
+		<a href="/{serviceLink}">Read more</a>
 	</div>
 </article>
 
 <style>
 	article {
-		background-color: var(--color-cream);
-		width: 30rem;
+		background-color: var(--color-light-cream);
+		width: 100%;
 		border-radius: 0.5rem;
 	}
 
@@ -41,16 +41,20 @@
 	}
 
 	div:last-child {
-		padding: 1rem 1rem 2rem;
+		padding: 1rem 3rem 2rem;
 	}
 
 	h3 {
-		font-size: 1.5rem;
+		font-size: var(--font-size-md);
+		font-weight: 600;
+		margin-bottom: 0.5rem;
 	}
 
 	p {
-		font-size: 1rem;
+		font-size: var(--font-size-normal);
+		line-height: 1.5rem;
 		margin-bottom: 1rem;
+		max-width: 25rem;
 	}
 
 	a {
@@ -59,16 +63,13 @@
 		padding: 0.5rem 1.5rem;
 		border-radius: 0.5rem;
 		transition: 0.3s ease-in-out;
+		border: 1px solid var(--color-black);
+		font-weight: 300;
 	}
 
 	a:hover {
-		background-color: var(--color-white);
+		background-color: transparent;
+		border: 1px solid var(--color-black);
 		color: var(--color-black);
-	}
-
-	@media (max-width: 55rem) {
-		article {
-			width: 100%;
-		}
 	}
 </style>

@@ -16,7 +16,7 @@
 	heroParagraph="For perfect eyebrows and professional hair removal on the body"
 />
 
-<!-- <Services>
+<Services>
 	<ServiceCard
 		serviceLink="/"
 		serviceImage="/assets/images/portrait-2.jpg"
@@ -29,4 +29,4 @@
 		serviceTitle="Brows"
 		serviceSubtitle="Eyebrows change the shape of your face. So make sure you have the right one."
 	/>
-</Services> -->
+</Services>
