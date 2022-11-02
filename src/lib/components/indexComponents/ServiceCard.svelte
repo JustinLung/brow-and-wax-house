@@ -44,7 +44,12 @@
 		padding: 1rem 1rem 2rem;
 	}
 
+	h3 {
+		font-size: 1.5rem;
+	}
+
 	p {
+		font-size: 1rem;
 		margin-bottom: 1rem;
 	}
 

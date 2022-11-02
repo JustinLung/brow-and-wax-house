@@ -121,7 +121,7 @@
 
 	@media (min-width: 60rem) {
 		header {
-			padding: 1rem 3rem;
+			padding: 1rem 7rem;
 		}
 
 		nav {
